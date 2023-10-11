@@ -18,8 +18,8 @@ class Sign_In : public QWidget
     Q_OBJECT
 
 public:
-    explicit Sign_In(QWidget *parent = 0);
-    ~Sign_In();
+    explicit Sign_In(QWidget *parent = nullptr);
+   
 
     void paintEvent(QPaintEvent *);
     void cleanLineEdit();
